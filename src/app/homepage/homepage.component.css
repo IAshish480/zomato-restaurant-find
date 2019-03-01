@@ -1,0 +1,171 @@
+.mat-card>>>.mat-card-header-text {
+    margin: 0 16px;
+    width: 100% !important;
+}
+
+.myToolbar {
+    width: 100%;
+    background-color: chocolate;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    font-family: serif;
+    font-weight: 600;
+    padding: 8px 0px 6px 0px;
+}
+
+mat-card {
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    width: 96%;
+    margin: 6px 10px;
+}
+
+.customHeaderIcon {
+    width: 25px;
+    height: 25px;
+    color: white;
+    background-color: darkcyan;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 2px 0px 2px;
+}
+
+.mat-card-header .mat-card-title {
+    margin-bottom: 8px;
+}
+
+.mat-card-header>>>.mat-card-subtitle {
+    margin-bottom: 4px;
+}
+
+.customChip {
+    background: burlywood;
+    color: brown;
+    padding: 3px 5px 3px 5px;
+    border-radius: 15px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.restroImage {
+    width: 5rem;
+    height: 5rem;
+    color: brown;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    padding: 4%;
+    background: aqua;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.star-ratings-css {
+    unicode-bidi: bidi-override;
+    color: #c5c5c5;
+    font-size: 25px;
+    height: 25px;
+    float: right;
+    /* width: 100px; */
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+    text-shadow: 0px 1px 0 #a2a2a2;
+    margin-top: -2%;
+    margin-right: 10%;
+}
+
+.star-ratings-css-top {
+    color: #CDD614;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: block;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.star-ratings-css-bottom {
+    padding: 0;
+    display: block;
+    z-index: 0;
+}
+
+/* The Modal (background) */
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 8%;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    overflow-y: auto;
+    height: 80%;
+}
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input {
+    padding: 4px;
+    display: block;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.userName {
+    font-size: 16px;
+    font-family: serif;
+    padding: 5px;
+    font-weight: 600;
+}
